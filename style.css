@@ -115,3 +115,78 @@ footer{text-align:center;padding:14px;font-size:10px;color:#6b5a8a}
 display: block;
 {
 
+/* CORRECCIÓN DEL MENÚ LUZ DE LUNA */
+
+.left {
+
+    position: relative;
+
+}
+
+#menu-btn {
+
+    display: none;
+
+}
+
+.ham {
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    background: white;
+
+    color: #5142bd;
+
+    padding: 10px 15px;
+
+    border-radius: 10px;
+
+    font-size: 25px;
+
+}
+
+.dropdown {
+
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    min-width: 200px;
+
+    background: #292052;
+
+    border-radius: 10px;
+
+    z-index: 9999;
+
+    overflow: hidden;
+
+}
+
+.dropdown a {
+
+    display: block;
+
+    color: white !important;
+
+    text-decoration: none !important;
+
+    padding: 12px 16px;
+
+}
+
+.dropdown a:hover {
+
+    background: #7546c8;
+
+}
+
+#menu-btn:checked ~ .dropdown {
+display: block;
+{
